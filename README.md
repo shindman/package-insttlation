@@ -1,13 +1,11 @@
 # package-insttlation
-Basic package installation. 
+Basic package installation. Use raw tab to see.
 
 vim package-install.yml
 
 ---
 - hosts: hosts
-
   remote_user: username 
-  
   sudo: true
   
   tasks:
